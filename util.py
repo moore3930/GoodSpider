@@ -30,8 +30,6 @@ def save_weibo_page(path, content):
     for blog in content:
         blog_line = '\t'.join([str(tup[0]) + '\x01' + str(tup[1]) for tup in blog.items()])
         content_fout.write(blog_line + '\n')
-    print('save_path is {}'.format(path))
-    print(content)
     content_fout.flush()
     content_fout.close()
 

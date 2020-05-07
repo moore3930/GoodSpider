@@ -26,7 +26,8 @@ class WeiboCrawlerThread(threading.Thread):
                 url = self.urlQueue.get(False)
                 time.sleep(1)
                 contents = self.request_webpage(url)
-                keywords, start_time, end_time = util.parse_weibo_url(url)
+                _, start_time, end_time = util.parse_weibo_url(url)
+                keywords = self.config['Main']['key_words']
                 save_path = os.path.join(os.getcwd(), self.config['Main']['download_dir_name'],
                                          '-'.join([keywords, start_time, end_time]))
                 util.save_weibo_page(save_path, contents)

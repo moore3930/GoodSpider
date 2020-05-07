@@ -230,3 +230,17 @@
 2020-05-07 20:46:15,661 - logger - INFO - crawler-0 extracts 631 blogs in https://s.weibo.com/weibo/hello?q=hello&t&typeall=1&suball=1&timescope=custom:2020-05-04-23:2020-05-05-00&page=.
 2020-05-07 20:46:15,663 - logger - INFO - 24 queries have been conducted. 
 2020-05-07 20:46:15,664 - logger - INFO - Main thread quit. 
+2020-05-07 20:57:55,665 - logger - INFO - Run crawler-0
+2020-05-07 20:57:55,665 - logger - INFO - Run crawler-1
+2020-05-07 20:57:55,665 - logger - INFO - Run crawler-2
+2020-05-07 20:57:55,665 - logger - INFO - Run crawler-3
+2020-05-07 20:59:24,317 - logger - INFO - crawler-3 extracts 287 blogs from https://s.weibo.com/weibo/%25E6%2596%25B0%25E5%2586%25A0?q=%E6%96%B0%E5%86%A0&t&typeall=1&suball=1&timescope=custom:2020-05-04-03:2020-05-04-04&page=.
+2020-05-07 21:00:00,278 - logger - INFO - crawler-2 extracts 403 blogs from https://s.weibo.com/weibo/%25E6%2596%25B0%25E5%2586%25A0?q=%E6%96%B0%E5%86%A0&t&typeall=1&suball=1&timescope=custom:2020-05-04-02:2020-05-04-03&page=.
+2020-05-07 21:00:43,864 - logger - INFO - crawler-1 extracts 550 blogs from https://s.weibo.com/weibo/%25E6%2596%25B0%25E5%2586%25A0?q=%E6%96%B0%E5%86%A0&t&typeall=1&suball=1&timescope=custom:2020-05-04-01:2020-05-04-02&page=.
+2020-05-07 21:00:58,581 - logger - INFO - crawler-3 extracts 298 blogs from https://s.weibo.com/weibo/%25E6%2596%25B0%25E5%2586%25A0?q=%E6%96%B0%E5%86%A0&t&typeall=1&suball=1&timescope=custom:2020-05-04-04:2020-05-04-05&page=.
+2020-05-07 21:03:43,584 - logger - INFO - Run crawler-0
+2020-05-07 21:03:43,585 - logger - INFO - Run crawler-1
+2020-05-07 21:03:43,585 - logger - INFO - Run crawler-3
+2020-05-07 21:03:43,585 - logger - INFO - Run crawler-2
+2020-05-07 21:03:50,162 - logger - INFO - 24 queries have been conducted. 
+2020-05-07 21:03:50,162 - logger - INFO - Main thread quit. 
